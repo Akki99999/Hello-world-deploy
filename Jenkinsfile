@@ -1,13 +1,16 @@
-//Groovy
 pipeline {
     agent any
+
+    environment {
+        USER = "Akki99999"
+    }
 
     stages {
         stage('Checkout') {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-creds',
-                    url: 'https://github.com/Akki99999/Hello-world-deploy'
+                    url: 'https://github.com/def/Hello-world-deploy.git'
             }
         }
 
@@ -18,4 +21,3 @@ pipeline {
         }
     }
 }
-
