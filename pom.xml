@@ -48,4 +48,15 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>
+      <id>jfrog-releases</id>
+      <url>http://52.66.207.255:8082/artifactory/libs-release-local/</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>jfrog-snapshots</id>
+      <url>http://52.66.207.255:8082/artifactory/libs-snapshot-local/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
