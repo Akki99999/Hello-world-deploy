@@ -51,12 +51,12 @@
     <distributionManagement>
     <repository>
       <id>jfrog-releases</id>
-      <url>http://15.206.70.200:8082/artifactory/libs-release-local/</url>
+      <url>http://13.201.97.177:8082/artifactory/libs-release-local/</url>
     </repository>
 
     <snapshotRepository>
       <id>jfrog-snapshots</id>
-      <url>http://15.206.70.200:8082/artifactory/libs-snapshot-local/</url>
+      <url>http://13.201.97.177:8082/artifactory/libs-snapshot-local/</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
